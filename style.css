@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #EC715F;
+	width: 100%;
+	height: 70px;
+}
+
+.logo {
+	height: 70px;
+	float: left;
+}
+
+.nav {
+	float: right;
+}
+
+a {
+	color: #FAFAFA;
+	text-decoration-line: none;
+}
+.nav-list {
+	font-size: 16px;
+	margin-right: 30px;
+	margin-left: 30px;
+	list-style: none;
+	line-height: 70px;
+	float: left;
+}
+
+#mv {
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 650px;
+}
+
+.title {
+	font-size: 64px;
+	color: #FAFAFA;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.head-text {
+	font-size: 20px;
+	color: #FAFAFA;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#portfolio {
+	background-color: #ECEFF1;
+}
+
+.head {
+	text-align: center;
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+
+.head::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.p-text {
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.production-group {
+	width: 920px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+.production {
+	height: 250px;
+	width: 300px;
+	margin: 10px 10px 0 0;
+	float: left;
+	background-position: center;
+	background-size: cover;
+}
+
+.production:nth-child(-n+3){
+	margin-top: 0;
+}
+
+.production:nth-child(3n){
+	margin-right: 0;
+}
+
+.bg1 {
+	background-image: url(img/sketch.jpg);
+}
+
+.bg2 {
+	background-image: url(img/websuku.png);
+}
+
+.bg3 {
+	background-image: url(img/write.jpg);
+}
+
+.bg4 {
+	background-image: url(img/webcamp.png);
+}
+
+.bg5 {
+	background-image: url(img/talk.jpg);
+}
+
+.bg6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.second {
+	text-align: center;
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+
+.second::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.f-text {
+	text-align: center;
+	font-size: 16px;
+	margin: 30px 0 30px 0;
+}
+
+#feature{
+	background-size: cover;
+	background-position: center;
+}
+
+.strength-group {
+	width: 980px;
+	margin: 30px 0 90px 0 ;
+	margin: 0 auto;
+}
+
+.strength {
+	float: left;
+	width: 320px;
+	margin-right: 10px;
+	margin-bottom: 90px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.fa-clone::before {
+	font-size: 60px;
+	font-family:'Font Awesome 5 Brands'
+}
+
+.strength:last-child{
+	margin-right: 0;
+}
+
+.strength-title {
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+.strength-text {
+	text-align: left;
+	font-size: 16px;
+}
+
+#profile {
+	background-color: #ECEFF1;
+}
+
+.profile-group {
+
+	padding: 30px 0 90px 0;
+}
+
+.profile-text {
+	text-align: center;
+}
+
+.heading {
+	text-align: center;
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+
+.heading::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.heading-text {
+	margin-top: 30px;
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+}
+
+.left-content {
+	width: 50%;
+	float: left;
+}
+
+.right-content {
+	width: 50%;
+	float: right;
+}
+
+.discription-text {
+	margin-top: 5px;
+	color: #000000;
+	font-size: 16px;
+}
+
+.discription-title {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.discription-text {
+	margin-top: 5px;
+	color: #000000;
+	font-size: 16px;
+}
+
+.my-face {
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	margin: 0 auto;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+}
+.contact-group {
+	width: 800px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.left-contact-content {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.right-contact-content {
+	width: 170px;
+	margin: 0 auto;
+}
+
+.right-contact-content .fa {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.right-contact-content .fa:last-child {
+	margin-right: 0;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	line-height: 60px;
+}
+
+.copyright {
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+@media(max-width: 768px){
+
+	.container{
+		width: 90%;
+	}
+
+	.sp-none{
+		display: none;
+	}
+
+	.left-content{
+		float: none;
+		width: 100%;
+	}
+
+	.right-content{
+		float: none;
+		width: 100%;
+	}
+
+	header{
+		height: 50px;
+	}
+
+	.logo{
+		float: none;
+		height: 50px;
+	}
+
+	.menu-box{
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.list-bar{
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA;
+	}
+
+	.list-bar:first-child{
+		margin-top: 10px;
+	}
+
+	.nav{
+		float: none;
+	}
+
+	.nav-list{
+		display: none;
+		float: none;
+		width: 100%;
+		line-height: 50px;
+		border-bottom: 1px solid gray;
+		text-align: center;
+		background-color: rgba(0,0,0,.9);
+	}
+
+	.nav-list:last-child{
+		border: none;
+	}
+
+	#mv{
+		background-image: url(img/code.png);
+	}
+
+	.mv-title{
+		font-size: 40px;
+	}
+
+	.mv-text{
+		font-size: 18px;
+	}
+
+	#portfolio{
+		padding: 0 5%;
+	}
+
+	.production-group{
+		width: 300px;
+	}
+
+	.production{
+		float: none;
+	}
+
+
+	#feature{
+		padding: 0 5%;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.strength-group{
+		width: 320px;
+	}
+
+	.strength{
+		float: none;
+		margin-top: 10px;
+	}
+
+	.strength:first-child{
+		margin-top: 0;
+	}
+
+	/* =====================
+	  Profile
+	===================== */
+
+	#profile{
+		padding: 0 5%;
+	}
+
+	.profile-group{
+		text-align: center;
+	}
+
+	.discription-title:first-child{
+		margin-top: 20px;
+	}
+
+
+	/* =====================
+	  Contact
+	===================== */
+
+	#contact{
+		padding: 0 5%;
+	}
+
+	.contact-group{
+		width: 100%;
+		text-align: center;
+	}
+
+	.left-contact-content{
+		width: 100%;
+	}
+
+	.right-contact-content{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.right-contact-content .fa {
+		font-size: 50px;
+		margin-right: 8px;
+	}
+
+}
